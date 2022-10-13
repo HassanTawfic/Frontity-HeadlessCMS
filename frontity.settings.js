@@ -45,7 +45,7 @@ const settings = {
       "name": "@frontity/wp-source",
       "state": {
         "source": {
-          "url": "https://test.frontity.org"
+          "url": "http://localhost:8888/Omnia/Fontity/wordpress-6.0.2/wordpress/index.php/"
         }
       }
     },
