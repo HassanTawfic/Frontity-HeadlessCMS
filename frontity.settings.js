@@ -9,7 +9,7 @@ const settings = {
   },
   "packages": [
     {
-      "name": "@frontity/mars-theme",
+      "name": "my-first-theme",
       "state": {
         "theme": {
           "menu": [
@@ -18,25 +18,13 @@ const settings = {
               "/"
             ],
             [
-              "Nature",
-              "/category/nature/"
+              "Hola",
+              "/category/hola-category/"
             ],
-            [
-              "Travel",
-              "/category/travel/"
-            ],
-            [
-              "Japan",
-              "/tag/japan/"
-            ],
-            [
-              "About Us",
-              "/about-us/"
-            ]
           ],
           "featured": {
-            "showOnList": false,
-            "showOnPost": false
+            "showOnList": true,
+            "showOnPost": true
           }
         }
       }
@@ -45,7 +33,9 @@ const settings = {
       "name": "@frontity/wp-source",
       "state": {
         "source": {
-          "url": "http://localhost:8888/Omnia/Fontity/wordpress-6.0.2/wordpress/index.php/"
+          "api": "http://localhost:8888/Omnia/Fontity/wordpress-6.0.2/wordpress/index.php/wp-json/",
+          //previously "url":""
+          //"url": "http://localhost:8888/Omnia/Fontity/wordpress-6.0.2/wordpress/index.php/"
         }
       }
     },
